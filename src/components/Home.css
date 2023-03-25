@@ -1,0 +1,40 @@
+.home-page {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: inherit;
+}
+
+.home-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.home-heading h1{
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.home-heading h2 {
+    font-size: 1.75em;
+}
+
+.social-container {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 280px) {
+    .social-container li{
+        margin-right: 10px;
+    }
+
+    .home-text {
+        gap: 30px;
+    }
+    
+}
