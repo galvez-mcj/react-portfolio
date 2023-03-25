@@ -45,4 +45,20 @@
   font-weight: bold;
 }
 
+/* links */
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+nav a:hover {
+  background-color: var(--primary-color);
+  color: var(--white);
+  border-radius: 15px;
+}
+
+.nav-brand:hover {
+  transform: scale(1.2);
+}
+
 /* container */
