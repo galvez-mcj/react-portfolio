@@ -45,6 +45,10 @@
   font-weight: bold;
 }
 
+h2 {
+  font-size: 1.75em;
+}
+
 /* links */
 a {
   text-decoration: none;
