@@ -1,0 +1,23 @@
+.skills-page {
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.skills-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 70px;
+}
+
+.skills-content div {
+    transition: all 0.2s ease-in-out;
+}
+
+.skills-content div:hover {
+    transform: scale(1.2);
+}
