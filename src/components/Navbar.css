@@ -1,5 +1,6 @@
 .nav-bar {
     background-color: var(--white);
+    border-bottom: 1px solid var(--black);
 }
 
 .nav-wrapper {    
