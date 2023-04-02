@@ -7,7 +7,10 @@ import {
     faJsSquare,
     faJava,
     faPython,
-    faReact
+    faReact,
+    faNode,
+    faFigma,
+    faBootstrap
 } from '@fortawesome/free-brands-svg-icons'
 
 const Skills = () => {
@@ -19,8 +22,13 @@ const Skills = () => {
                 <div><FontAwesomeIcon icon={faJsSquare} color="#000" size="5x"/></div>
                 <div><FontAwesomeIcon icon={faCss3Alt} color="#0052cc" size="5x"/></div>
                 <div><FontAwesomeIcon icon={faHtml5} color="#000" size="5x"/></div>
-                <div><FontAwesomeIcon icon={faReact} color="#0052cc" size="5x"/></div>
-                <div><FontAwesomeIcon icon={faGitAlt} color="#000" size="5x"/></div>
+            </div>
+            <div className="skills-content">
+            <div><FontAwesomeIcon icon={faReact} color="#0052cc" size="5x"/></div>
+                <div><FontAwesomeIcon icon={faNode} color="#000" size="5x"/></div>
+                <div><FontAwesomeIcon icon={faFigma} color="#0052cc" size="5x"/></div>
+                <div><FontAwesomeIcon icon={faBootstrap} color="#000" size="5x"/></div>
+                <div><FontAwesomeIcon icon={faGitAlt} color="#0052cc" size="5x"/></div>
             </div>
         </div>
     )

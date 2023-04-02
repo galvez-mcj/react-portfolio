@@ -1,17 +1,24 @@
-.page {
-    height: max-content;
+body {
+    margin: 0;
+}
+
+.App {
     width: 100%;
-    margin: 0 120px;
+    height: 100vh;
+    position: absolute;
 }
 
-@media screen and (max-width: 900px){
-    .page {
-        margin: 0 60px;
-    }
+.navigation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
 }
 
-@media screen and (max-width: 720px){
-    .page {
-        margin: 10px 30px;
-    }
+.page {
+    position: relative;
+    top: 71px;
+    width: 100%;
+    height: calc(100% - 71px);
 }

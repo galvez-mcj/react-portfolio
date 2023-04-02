@@ -12,6 +12,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 70px;
+    margin-bottom: 50px;
 }
 
 .skills-content div {
@@ -20,4 +21,16 @@
 
 .skills-content div:hover {
     transform: scale(1.2);
+}
+
+.skill-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-title {
+    margin-top: 10px;
+    font-size: 0.8em;
 }

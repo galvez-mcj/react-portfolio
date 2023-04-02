@@ -1,9 +1,12 @@
 .about-page {
-    position: absolute;
+    margin: 0 120px;
+    height: inherit;
+}
+
+.flex {
+    position: relative;
     top: 50%;
     transform: translateY(-50%);
-    margin: 50px 0px;
-    margin-right: inherit;
 
     display: flex;
     align-items: center;
@@ -14,31 +17,46 @@
     width: 500px;
 }
 
-.right {
+.flex-right {
     flex: 1 1 auto;
     display: flex;
     flex-direction: column;
     gap: 50px;
 }
 
-.left {
+.flex-left {
     flex: 1 1 0;
+    padding: 0;
 }
 
 @media screen and (max-width:900px) {
+    .about-page {
+        margin: 0px 60px;
+    }
+
     .about-img {
         width: 350px;
     }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 720px){
     .about-page {
+        margin: 10px 30px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .flex {
         flex-direction: column;
     }
 }
 
 @media screen and (max-width:280px) {
     .about-page {
-        margin: 100px 0px;
+        margin: 100px 10px;
+    }
+
+    .about-img {
+        width: 250px;
     }
 }
