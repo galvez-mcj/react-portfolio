@@ -1,6 +1,7 @@
 import "./Projects.css"
 import projImg from "../assets/project-img.jpg"
 import futureImg from "../assets/future-careers.png"
+import trackerImg from "../assets/vaw-tracker.png"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
@@ -42,26 +43,26 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="projects-card">
-                    <img className="project-img" src={projImg} alt="" />
+                    <img className="project-img" src={trackerImg} alt="" />
                     <div className="technology-stack">
                         <div><FontAwesomeIcon icon={faReact} color="#0052cc" size="2x"/></div>
                         <div><FontAwesomeIcon icon={faNode} color="#0052cc" size="2x"/></div>
                         <div><FontAwesomeIcon icon={faCss3Alt} color="#0052cc" size="2x"/></div>
                         <div><FontAwesomeIcon icon={faHtml5} color="#0052cc" size="2x"/></div>
                     </div>
-                    <h3>Blog Site</h3>
-                    <p>A blog site with user authentication made with MERN stack</p>
+                    <h3>VAW Tracker</h3>
+                    <p>A reporting site for VAW cases with user auth made with MERN stack</p>
                     <div className="project-location">
                         <a 
                             target="_blank"
                             rel="noreferrer"
-                            href="https://future-careers.onrender.com/">
+                            href="https://vaw-tracker.netlify.app/">
                             <button>Live Demo</button>
                         </a>
                         <a 
                             target="_blank"
                             rel="noreferrer"
-                            href="https://github.com/galvez-mcj/careers-website">
+                            href="https://github.com/galvez-mcj/mern-case-report">
                             <button>Source Code</button>
                         </a>
                     </div>
