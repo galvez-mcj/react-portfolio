@@ -1,7 +1,7 @@
 import "./Projects.css"
 import projImg from "../assets/project-img.jpg"
 import futureImg from "../assets/future-careers.png"
-import trackerImg from "../assets/vaw-tracker.png"
+import blogImg from "../assets/blog-site.png"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
@@ -18,6 +18,8 @@ const Projects = () => {
     return (
         <div className="projects-page">
             <div className="projects-content">
+                <h2 className="display-font">Personal Projects</h2>
+                <p>The following projects were created to hone my development skills as well as showcase my flexibility in using different languages and technologies.</p>
                 <div className="projects-card">
                     <img className="project-img" src={projImg} alt="" />
                     <div className="technology-stack">
@@ -43,26 +45,26 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="projects-card">
-                    <img className="project-img" src={trackerImg} alt="" />
+                    <img className="project-img" src={blogImg} alt="" />
                     <div className="technology-stack">
                         <div><FontAwesomeIcon icon={faReact} color="#0052cc" size="2x"/></div>
                         <div><FontAwesomeIcon icon={faNode} color="#0052cc" size="2x"/></div>
                         <div><FontAwesomeIcon icon={faCss3Alt} color="#0052cc" size="2x"/></div>
                         <div><FontAwesomeIcon icon={faHtml5} color="#0052cc" size="2x"/></div>
                     </div>
-                    <h3>VAW Tracker</h3>
-                    <p>A reporting site for VAW cases with user auth made with MERN stack</p>
+                    <h3>Blog Site</h3>
+                    <p>A website for blog posts with user auth made with MERN stack</p>
                     <div className="project-location">
-                        <a 
+{/*                         <a 
                             target="_blank"
                             rel="noreferrer"
                             href="https://vaw-tracker.netlify.app/">
                             <button>Live Demo</button>
-                        </a>
+                        </a> */}
                         <a 
                             target="_blank"
                             rel="noreferrer"
-                            href="https://github.com/galvez-mcj/mern-case-report">
+                            href="https://github.com/galvez-mcj/mern-blog">
                             <button>Source Code</button>
                         </a>
                     </div>
