@@ -1,9 +1,11 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin, faViber, faGoogle } from '@fortawesome/free-brands-svg-icons'
+import sideImg from '../assets/side-img.png'
 import "./Home.css"
 
 const Home = () => {
     return (
+        <>
         <div className="home-page">
             <div className="home-text">
                 <p>Hi there! I'm</p>
@@ -48,6 +50,9 @@ const Home = () => {
                 </li>
             </ul>
         </div>
+        <img className="home-img" src={sideImg} alt="" />
+        </>
+
     )
 }
 

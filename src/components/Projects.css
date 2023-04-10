@@ -13,6 +13,10 @@
     gap: 50px;
 }
 
+.projects-content p {
+    text-align: center;
+}
+
 .projects-card {
     width: 300px;
     height: max-content;

@@ -1,5 +1,5 @@
 import "./Projects.css"
-import projImg from "../assets/project-img.jpg"
+import portfolioImg from "../assets/portfolio-img.jpg"
 import futureImg from "../assets/future-careers.png"
 import blogImg from "../assets/blog-site.png"
 
@@ -21,25 +21,25 @@ const Projects = () => {
                 <h2 className="display-font">Personal Projects</h2>
                 <p>The following projects were created to hone my development skills as well as showcase my flexibility in using different languages and technologies.</p>
                 <div className="projects-card">
-                    <img className="project-img" src={projImg} alt="" />
+                    <img className="project-img" src={portfolioImg} alt="" />
                     <div className="technology-stack">
                         <div><FontAwesomeIcon icon={faPython} color="#0052cc" size="2x"/></div>
                         <div><FontAwesomeIcon icon={faCss3Alt} color="#0052cc" size="2x"/></div>
                         <div><FontAwesomeIcon icon={faHtml5} color="#0052cc" size="2x"/></div>
                     </div>
-                    <h3>DeDetect Lite</h3>
-                    <p>A lite version of my thesis for breast cancer detection in mammograms</p>
+                    <h3>Personal Portfolio</h3>
+                    <p>Portfolio made using React with contact page using emailjs </p>
                     <div className="project-location">
                         <a 
                             target="_blank"
                             rel="noreferrer"
-                            href="https://future-careers.onrender.com/">
+                            href="https://galvez-mcj.netlify.app/">
                             <button>Live Demo</button>
                         </a>
                         <a 
                             target="_blank"
                             rel="noreferrer"
-                            href="https://github.com/galvez-mcj/careers-website">
+                            href="https://github.com/galvez-mcj/react-portfolio">
                             <button>Source Code</button>
                         </a>
                     </div>
@@ -78,7 +78,7 @@ const Projects = () => {
                         <div><FontAwesomeIcon icon={faHtml5} color="#0052cc" size="2x"/></div>
                     </div>
                     <h3>Future Careers Website</h3>
-                    <p>A job hunt site with functioning backend database</p>
+                    <p>A job hunt site with functioning backend MySQL database</p>
                     <div className="project-location">
                         <a 
                             target="_blank"
