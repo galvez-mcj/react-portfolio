@@ -5,9 +5,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin, faGoogle, faViber } from '@fortawesome/free-brands-svg-icons'
 
 import "./Contact.css"
+import { Navigate } from 'react-router-dom'
 
 const Contact = () => {
     const refForm = useRef()
+    const [redirect, setRedirect] = useState(false)
 
     const sendEmail = (event) => {
         event.preventDefault()
@@ -19,12 +21,18 @@ const Contact = () => {
         )
         .then( () => {
             alert('Message successfully sent!')
-            window.location.reload(false)
+            /* window.location.reload(false) */
+            setRedirect(true);
+
         },
         () => {
             alert('Failed to send message. Please try again.')
         })
     }
+
+    if (redirect) {
+        return <Navigate to={'/'} />
+      }
 
     return (
             <div className="contact-page">
