@@ -13,7 +13,7 @@ const Home = () => {
                     <h1 className="display-font primary bold">Ma. Christina J. Galvez</h1>
                     <h2 className="display-font secondary bold">aspiring Software Engineer</h2>
                 </div>
-                <p>Women's Rights Advocate | Graphic Artist</p>
+                <p>Women's Rights Advocate | Graphic Designer</p>
             </div>
             <ul className="social-container">
                 <li>
