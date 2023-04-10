@@ -7,8 +7,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
     faBootstrap,
     faCss3Alt,
+    faFigma,
     faHtml5,
-    faJsSquare,
     faNode,
     faPython,
     faReact
@@ -23,7 +23,8 @@ const Projects = () => {
                 <div className="projects-card">
                     <img className="project-img" src={portfolioImg} alt="" />
                     <div className="technology-stack">
-                        <div><FontAwesomeIcon icon={faPython} color="#0052cc" size="2x"/></div>
+                        <div><FontAwesomeIcon icon={faReact} color="#0052cc" size="2x"/></div>
+                        <div><FontAwesomeIcon icon={faFigma} color="#0052cc" size="2x"/></div>
                         <div><FontAwesomeIcon icon={faCss3Alt} color="#0052cc" size="2x"/></div>
                         <div><FontAwesomeIcon icon={faHtml5} color="#0052cc" size="2x"/></div>
                     </div>
